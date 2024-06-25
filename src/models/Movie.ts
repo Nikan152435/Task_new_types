@@ -1,13 +1,24 @@
 export default class Movie {
-    title: string;
-    year: number;
-    country: string;
-    genre: string;
-    rating: number;
-    director: string;
-    actors: string[];
+    
+    public title: string;
+    public year: number;
+    public country: string;
+    public genre: string;
+    public rating: number;
+    public director: string;
+    public actors: string[];
+  
 
-    constructor(title: string, year: number, country: string, genre: string, rating: number, director: string, actors: string[]) {
+    constructor(
+    title: string, 
+    year: number, 
+    country: string, 
+    genre: string, 
+    rating: number, 
+    director: string, 
+    actors: string[]
+) 
+{
         this.title = title;
         this.year = year;
         this.country = country;
